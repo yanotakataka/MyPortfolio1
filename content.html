@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Takahiro Blog</title>
+  <script src="https://kit.fontawesome.com/aabbea6516.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="container">
+    <a href="index.html">
+      <h1 class="top-logo">Takahiro's Portfolio</h1>
+    </a>
+    <nav class="top-menu">
+      <ul>
+        <a href="profile.html">
+          <li>PROFILE</li>
+        </a>
+        <a href="works.html">
+          <li>WORKS</li>
+        </a>
+        <a href="news.html">
+          <li>NEWS</li>
+        </a>
+        <a href="content.html">
+          <li>CONTENT</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="nav">
+      <input id="drawer_input" class="drawer_hidden" type="checkbox">
+      <label for="drawer_input" class="drawer_open"><span></span></label>
+      <nav class="nav_content">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="profile.html">PROFILE</a></li>
+          <li class="nav_item"><a href="works.html">WORKS</a></li>
+          <li class="nav_item"><a href="news.html">NEWS</a></li>
+          <li class="nav_item"><a href="content.html">CONTENT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="content-title">
+      <h1>CONTENT</h1>
+    </div>
+    <div class="container-contact">
+      <form>
+        <dl class="contactlist">
+          <dt>
+            <label for="name">NAME</label>
+          </dt>
+          <dd>
+            <input type="text" id="name">
+          </dd>
+          <dt>
+            <label for="e-mail">E-mail</label>
+          </dt>
+          <dd>
+            <input type="text" id="e-mail">
+          </dd>
+          <dt>
+            <label for="message">MESSAGE</label>
+          </dt>
+          <dd>
+            <textarea id="message"></textarea>
+          </dd>
+        </dl>
+      </form>
+    </div>
+    <div class="btn">
+      送信
+    </div>
+  </main>
+
+  <footer>
+    <div class="initial">
+      <small>
+        <p class="copyright">&copy; Takahiro official</p>
+      </small>
+    </div>
+    <div class="icon">
+      <p>
+        <a href="https://twitter.com/">
+          <i class="fa-brands fa-twitter-square fa-2x my-font"></i>
+        </a>
+      </p>
+      <p>
+        <a href="https://www.instagram.com/">
+          <i class="fa-brands fa-instagram fa-2x my-font"></i>
+        </a>
+      </p>
+      <p>
+        <a href="https://www.facebook.com/">
+          <i class="fa-brands fa-facebook fa-2x my-font"></i>
+        </a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

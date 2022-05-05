@@ -1,0 +1,484 @@
+* {
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  font-weight: bold;
+  padding-top: 90px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+dd {
+  margin: 0;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+/* header */
+
+header {
+  height: 90px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  background-color: white;
+  width: calc(100% - 40px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+  z-index: 2;
+}
+
+.top-logo {
+  line-height: 90px;
+}
+
+.top-menu ul {
+  display: flex;
+  line-height: 90px;
+}
+
+.top-menu li {
+  margin-left: 30px;
+}
+
+.top-menu li {
+  transition: .5s;
+}
+
+.top-menu li:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
+.main-photo img {
+  display: block;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav {
+  display: none;
+}
+
+/* main */
+
+main.container {
+  background-color: beige;
+  height: 442px;
+  padding-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+section.about {
+  width: 387px;
+}
+
+section .about-box {
+  background-color: white;
+  padding: 20px;
+}
+
+h2.about-title {
+  text-align: center;
+}
+
+.about dl {
+  border-bottom: dashed 2px black;
+}
+
+.about dl:last-child {
+  border: none;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  height: 100px;
+}
+
+.initial {
+  line-height: 100px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
+
+footer .icon {
+  display: flex;
+  height: 0;
+}
+
+footer .icon p {
+  margin: 0 15px;
+  position: relative;
+  top: -50px;
+}
+
+footer .my-font {
+  color: white;
+}
+
+/* profile */
+
+.face-box {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.profile-title {
+  background-color: beige;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.my-profile p:nth-child(1) {
+  font-size: 26px;
+}
+
+
+.face-photo img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.my-profile {
+  margin: auto;
+}
+
+.container-profile {
+  margin-bottom: 70px;
+}
+
+/* member */
+
+.profile-member {
+  background-color: beige;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.profile-footer {
+  margin-top: 60px;
+}
+
+/* works */
+
+.works-title {
+  background-color: beige;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+div.workimage {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+ul.workimage2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+ul.workimage2 img {
+  display: block;
+  width: 100%;
+  transition: .3s;
+}
+
+ul.workimage2 img:hover {
+  opacity: .6;
+}
+
+ul.workimage2 li p {
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.work-number {
+  display: flex;
+  font-size: 14px;
+  margin: 60px;
+  justify-content: center;
+}
+
+.work-number p {
+  width: 60px;
+  transition: .5s;
+}
+
+.work-number p:hover {
+  opacity: .3;
+}
+
+/* news */
+
+.news-title {
+  background-color: beige;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.news-text {
+  margin: 0 100px;
+  font-size: 17px;
+}
+
+.news-text dl {
+  border-bottom: dashed 2px black;
+  margin: 40px 0;
+}
+
+.news-text dl:last-child {
+  border: none;
+}
+
+.news-text dd {
+  padding: 20px 0;
+}
+
+/* content */
+
+.content-title {
+  background-color: beige;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.container-contact {
+  padding: 0 20px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  height: 35px;
+}
+
+textarea {
+  width: 90%;
+  height: 150px;
+}
+
+form dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+form dt {
+  width: 20%;
+  padding: 15px 0 15px 0;
+  font-size: 14px;
+}
+
+form dd {
+  width: 80%;
+  margin: 0;
+  padding: 15px 0 15px 0;
+  font-size: 14px;
+}
+
+.btn {
+  text-align: center;
+  width: 190px;
+  line-height: 50px;
+  margin: 30px auto;
+  background-color: #24292e;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn:hover {
+  opacity: .5;
+  transition: .5s;
+  border: 1px #24292e solid;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1150px) {
+
+  main.container {
+    padding-bottom: 90px;
+  }
+
+  iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* header */
+
+  .top-menu {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .drawer_hidden {
+    display: none;
+  }
+
+  /* ハンバーガーアイコンの設置スペース */
+  .drawer_open {
+    display: flex;
+    height: 90px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  /* ハンバーガーメニューのアイコン */
+  .drawer_open span,
+  .drawer_open span:before,
+  .drawer_open span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: #333;
+    transition: 0.5s;
+    position: absolute;
+  }
+
+  /* 三本線の一番上の棒の位置調整 */
+  .drawer_open span:before {
+    bottom: 8px;
+  }
+
+  /* 三本線の一番下の棒の位置調整 */
+  .drawer_open span:after {
+    top: 8px;
+  }
+
+  /* アイコンがクリックされたら真ん中の線を透明にする */
+  #drawer_input:checked ~ .drawer_open span {
+    background: rgba(255, 255, 255, 0);
+  }
+
+  /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+  #drawer_input:checked ~ .drawer_open span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+
+  #drawer_input:checked ~ .drawer_open span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  /* メニューのデザイン*/
+  .nav_content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 100%;
+    left: 0%;
+    z-index: 99;
+    background: #fff;
+    transition: .5s;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  /* メニュー黒ポチを消す */
+  .nav_list {
+    list-style: none;
+  }
+
+  .nav_item {
+    margin-top: 50px;
+    transition: .5s;
+  }
+
+  .nav_item:hover {
+    opacity: .5;
+  }
+
+  /* アイコンがクリックされたらメニューを表示 */
+  #drawer_input:checked ~ .nav_content {
+    bottom: 0;
+  }
+
+  main.container {
+    background-color: beige;
+    height: 1100px;
+    padding-top: 40px;
+    display: block;
+    gap: 30px;
+  }
+
+  section.about {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  /* profile */
+
+  .face-box {
+    display: block;
+    width: 60%;
+  }
+
+
+}
+
+
+
+
+
+
+
